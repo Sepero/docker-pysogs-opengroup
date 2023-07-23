@@ -5,6 +5,7 @@ services:
 
     tty: True
     stdin_open: True
+    network_mode: host
 
     ports:
       - 8000:8000
